@@ -17,10 +17,6 @@ While I am more comfortable with Javascript, I only just started learing Python 
 
 No deployment on any of the codes in this sections. Everything is writing purely for backend. Code can be downloaded and tested on any machine.
 
-### Links
-
-- Solution URL: [solution](https://github.com/aeorherhe/multi-step-form-react.git)
-
 ### Programming languages
 
 - Javascrypt
