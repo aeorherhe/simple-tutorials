@@ -6,6 +6,18 @@ const rl = readlinePromises.createInterface({
   output: process.stdout,
 })
 
+function stringLength(string) {
+  let length = 0
+  let i = 0
+
+  while (string[i] != undefined) {
+    ++length
+    ++i
+  }
+
+  return length
+}
+
 // fruits array
 const fruits = [
   "apple",

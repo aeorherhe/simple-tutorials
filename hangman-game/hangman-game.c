@@ -3,7 +3,20 @@
 #include <string.h>
 #include <stdbool.h>
 #include <time.h>
-#include "./utils/string-length.h"
+
+int length(char s[])
+{
+    char c = s[0];
+    int length = 0;
+
+    while (c != '\0')
+    {
+        length++;
+        c = s[length];
+    }
+
+    return length;
+}
 
 int main()
 {
